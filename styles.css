@@ -1,3 +1,9 @@
-main {
-    background-color: linear-gradient(bottom left, #000000, #6C6878) ;
+
+body {
+    background-color: -webkit-linear-gradient(bottom left, #000000, #6C6878);
+}
+
+p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }

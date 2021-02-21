@@ -49,13 +49,8 @@ p {
   .inlineflex {
     display: inline-flex;
   }
-  .container {
-    height: 360px;
-    width: 300px;
-    position: relative;
-}
 
-.imgCard {
+  .bc-card {
     height: 360px;
     width: 300px;
     border: 1px solid #ccc;
@@ -64,15 +59,13 @@ p {
     padding: 4px;
   }
 
-#cardShadow {
-    box-shadow:
-    0 6.7px 2.9px rgba(0, 0, 0, 0.057),
-    0 22.3px 9.6px rgba(0, 0, 0, 0.083),
-    0 100px 43px rgba(0, 0, 0, 0.14);
-  
+  .bc-container {
+    height: 360px;
+    width: 300px;
+    position: relative;
   }
 
-  .overlay {
+  .bc-overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -83,9 +76,232 @@ p {
     height: 0;
     transition: .5s ease;
   }  
-  .container:hover .overlay {
-    height: 100%;
+
+  .bc-conatiner:hover .bc-overlay {
+    height: 100%; 
   }
+  
+  .gw-card {
+    height: 360px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+
+  .gw-container {
+    height: 360px;
+    width: 300px;
+    position: relative;
+  }
+
+  .gw-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #e5989b;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }  
+
+  .gw-conatiner:hover .gw-overlay {
+    height: 100%; 
+  }
+
+  .md-card {
+    height: 360px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+
+  .md-container {
+    height: 360px;
+    width: 300px;
+    position: relative;
+  }
+
+  .md-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #e5989b;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }  
+
+  .md-conatiner:hover .md-overlay {
+    height: 100%;
+  }  
+    
+    .la-card {
+        height: 360px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 10px 5px;
+        padding: 4px;
+    }
+    
+      .la-container {
+        height: 360px;
+        width: 300px;
+        position: relative;
+      }
+    
+      .la-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #e5989b;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+      }  
+
+      .la-conatiner:hover .la-overlay {
+        height: 100%;
+      }
+
+      .eh-card {
+        height: 360px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 10px 5px;
+        padding: 4px;
+      }
+    
+      .eh-container {
+        height: 360px;
+        width: 300px;
+        position: relative;
+      }
+    
+      .eh-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #e5989b;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+      }  
+
+      .eh-conatiner:hover .eh-overlay {
+        height: 100%; 
+    }
+    .ac-card {
+        height: 360px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 10px 5px;
+        padding: 4px;
+      }
+    
+      .ac-container {
+        height: 360px;
+        width: 300px;
+        position: relative;
+      }
+    
+      .ac-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #e5989b;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+      }  
+
+      .ac-conatiner:hover .ac-overlay {
+        height: 100%; 
+    }
+
+    .sj-card {
+        height: 360px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 10px 5px;
+        padding: 4px;
+      }
+    
+      .sj-container {
+        height: 360px;
+        width: 300px;
+        position: relative;
+      }
+    
+      .sj-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #e5989b;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+      }  
+      .sj-conatiner:hover .sj-overlay {
+        height: 100%;
+    } 
+    .mj-card {
+        height: 360px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 10px 5px;
+        padding: 4px;
+      }
+    
+      .mj-container {
+        height: 360px;
+        width: 300px;
+        position: relative;
+      }
+    
+      .mj-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #e5989b;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+      }  
+
+      .mj-conatiner:hover .mj-overlay {
+        height: 100%; 
+    }
+
+    #cardShadow {
+        box-shadow:
+        0 6.7px 2.9px rgba(0, 0, 0, 0.057),
+        0 22.3px 9.6px rgba(0, 0, 0, 0.083),
+        0 100px 43px rgba(0, 0, 0, 0.14); 
+}
+
   .text {
     color: whitesmoke;
     font-family: sans-serif;

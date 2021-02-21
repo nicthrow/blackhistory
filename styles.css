@@ -80,6 +80,17 @@ p {
   .bc-conatiner:hover .bc-overlay {
     height: 100%; 
   }
+
+  .bc-text {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
   
   .gw-card {
     height: 360px;
@@ -112,6 +123,17 @@ p {
     height: 100%; 
   }
 
+  .gw-text {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
   .md-card {
     height: 360px;
     width: 300px;
@@ -142,8 +164,19 @@ p {
   .md-conatiner:hover .md-overlay {
     height: 100%;
   }  
+
+  .md-text {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
     
-    .la-card {
+.la-card {
         height: 360px;
         width: 300px;
         border: 1px solid #ccc;
@@ -152,7 +185,7 @@ p {
         padding: 4px;
     }
     
-      .la-container {
+.la-container {
         height: 360px;
         width: 300px;
         position: relative;
@@ -172,6 +205,17 @@ p {
 
       .la-conatiner:hover .la-overlay {
         height: 100%;
+      }
+
+      .la-text {
+        color: whitesmoke;
+        font-family: sans-serif;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
       }
 
       .eh-card {
@@ -204,6 +248,17 @@ p {
       .eh-conatiner:hover .eh-overlay {
         height: 100%; 
     }
+
+    .eh-text {
+        color: whitesmoke;
+        font-family: sans-serif;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
     .ac-card {
         height: 360px;
         width: 300px;
@@ -213,13 +268,13 @@ p {
         padding: 4px;
       }
     
-      .ac-container {
+    .ac-container {
         height: 360px;
         width: 300px;
         position: relative;
       }
     
-      .ac-overlay {
+    .ac-overlay {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -231,9 +286,19 @@ p {
         transition: .5s ease;
       }  
 
-      .ac-conatiner:hover .ac-overlay {
+    .ac-conatiner:hover .ac-overlay {
         height: 100%; 
     }
+    .ac-text {
+        color: whitesmoke;
+        font-family: sans-serif;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
 
     .sj-card {
         height: 360px;
@@ -264,6 +329,18 @@ p {
       .sj-conatiner:hover .sj-overlay {
         height: 100%;
     } 
+
+    .sj-text {
+        color: whitesmoke;
+        font-family: sans-serif;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
     .mj-card {
         height: 360px;
         width: 300px;
@@ -294,6 +371,17 @@ p {
       .mj-conatiner:hover .mj-overlay {
         height: 100%; 
     }
+
+    .mj-text {
+        color: whitesmoke;
+        font-family: sans-serif;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
 
     #cardShadow {
         box-shadow:

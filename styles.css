@@ -39,7 +39,7 @@ p {
     color: whitesmoke;
 }
 
-.grid-container-1 {
+.grid-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -50,7 +50,7 @@ p {
 .inlineflex {
   display: inline-flex;
 }
-.container {
+.imgContainer {
   height: 360px;
   width: 300px;
   position: relative;
@@ -82,7 +82,9 @@ p {
   width: 100%;
   height: 0;
   transition: .5s ease;
+  opacity: 0.5;
 }  
+
 .container:hover .overlay {
   height: 100%;
 }

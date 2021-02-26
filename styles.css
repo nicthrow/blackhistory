@@ -74,7 +74,6 @@ p {
   0 6.7px 2.9px rgba(0, 0, 0, 0.057),
   0 22.3px 9.6px rgba(0, 0, 0, 0.083),
   0 100px 43px rgba(0, 0, 0, 0.14);
-
 }
 
 .text-overlay-wrapper {
@@ -99,6 +98,7 @@ p {
 .container:hover .overlay {
   height: 100%;
 }
+
 .text {
   color: whitesmoke;
   font-family: sans-serif;

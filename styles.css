@@ -2,7 +2,7 @@
 body {
     background: linear-gradient(-45deg, #ffcdb2, #ffb4a2, #e5989b, #b5838d, #6d6875);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite
 }
 
 @keyframes gradient {
@@ -102,7 +102,8 @@ p {
 .text {
   color: whitesmoke;
   font-family: sans-serif;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 18px;
   position: absolute;
   top: 50%;
   left: 50%;
